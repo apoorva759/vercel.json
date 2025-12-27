@@ -3,5 +3,8 @@
   "public": true,
   "rewrites": [
     { "source": "/api/(.*)", "destination": "/api/$1.js" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }
